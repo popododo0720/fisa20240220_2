@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class citestController {
 	@GetMapping("getdata")
 	public String get() {
-		System.out.println("citest");
+		System.out.println("citest -- change??");
 		return "test";
 	}
 }
